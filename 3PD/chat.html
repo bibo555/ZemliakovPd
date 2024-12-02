@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Чат</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="chat-screen" class="screen">
+    <div class="chat-header">
+      <h2>Чат</h2>
+      <button id="logout">Выйти</button>
+    </div>
+    <div id="messages" class="chat-messages"></div>
+    <div class="chat-input">
+      <input type="text" id="message-input" placeholder="Сообщение...">
+      <button id="send-message">➤</button>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="chat.js"></script>
+</body>
+</html>

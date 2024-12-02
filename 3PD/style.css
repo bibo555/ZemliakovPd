@@ -1,0 +1,84 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Светло-серый фон для страницы */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Flexbox для выравнивания */
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+  height: 100vh; /* Высота экрана */
+}
+
+/* Центральный белый блок */
+.screen {
+  background: #fff; /* Белый фон формы */
+  padding: 30px; /* Отступы внутри белого блока */
+  border-radius: 8px; /* Округлённые углы */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
+  width: 320px; /* Ширина белого блока */
+  text-align: center; /* Центрирование текста внутри */
+}
+
+/* Заголовок */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
+
+/* Метки для полей */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: black;
+  text-align: left; /* Выравнивание текста меток слева */
+}
+
+/* Поля ввода */
+input {
+  width: 100%; /* Поля занимают всю ширину блока */
+  padding: 8px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+/* Поле ввода в фокусе */
+input:focus {
+  outline: none;
+  border-color: black;
+}
+
+/* Кнопки */
+.buttons {
+  display: flex;
+  justify-content: space-between; /* Расположение кнопок в строку */
+}
+
+button {
+  flex: 1; /* Кнопки занимают равную ширину */
+  padding: 10px;
+  font-size: 14px;
+  color: #000; /* Чёрный текст */
+  background-color: #fff; /* Белый фон */
+  border: 1px solid black; /* Чёрный бордер */
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px; /* Расстояние между кнопками */
+}
+
+/* Ховер для кнопок */
+button:hover {
+  background-color: #f0f0f0; /* Светло-серый фон при наведении */
+}
+
+/* Ошибка */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
